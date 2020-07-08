@@ -5,7 +5,9 @@ We have provided you with a project template that takes care of all the imports 
 
 You'll be provided with a helpers class that contains all the SQL transformations. Thus, you won't need to write the ETL yourselves, but you'll need to execute it with your custom operators.
 
-![Example Dag](/images/example-dag.png)
+<p align="center">
+  <img src="/images/example-dag.png" alt="Example Dag"/>
+</p>
 
 # Add Airflow Connections
 Here, we'll use Airflow's UI to configure your AWS credentials and connection to Redshift.
@@ -16,11 +18,16 @@ Here, we'll use Airflow's UI to configure your AWS credentials and connection to
 
 2. Click on the **Admin** tab and select **Connections**.
 
-![Admin Connections](/images/admin-connections.png)
+<p align="center">
+  <img src="/images/admin-connections.png" alt="Admin Connections"/>
+</p>
+
 
 3. Under **Connections**, select **Create**.
 
-![Create Connection](/images/create-connection.png)
+<p align="center">
+  <img src="/images/create-connection.png" alt="Create Connection"/>
+</p>
 
 4. On the create connection page, enter the following values:
 
@@ -31,7 +38,9 @@ Here, we'll use Airflow's UI to configure your AWS credentials and connection to
 
 Once you've entered these values, select **Save and Add Another.**
 
-![Connection AWS Credentials](/images/connection-aws-credentials.png)
+<p align="center">
+  <img src="/images/connection-aws-credentials.png" alt="Connection AWS Credentials"/>
+</p>
 
 5. On the next create connection page, enter the following values:
 
@@ -45,9 +54,10 @@ Once you've entered these values, select **Save and Add Another.**
 
 Once you've entered these values, select **Save**.  
 
-![Cluster Details](/images/cluster-details.png)
-
-![Connect Redshift](/images/connection-redshift.png)
+<p align="center">
+   <img src="/images/cluster-details.png" alt="Cluster Details"/>
+   <img src="/images/connection-redshift.png" alt="Connect Redshift"/>
+</p>
 
 Awesome! You're now all configured to run Airflow with Redshift.
 

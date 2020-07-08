@@ -1,3 +1,8 @@
+# Quick Start
+1. Edit: /home/workspace/dwh/dwh.cfg
+2. Run: python /home/workspace/dwh/create_tables.py
+3. Start Airflow
+
 # Project Overview
 This project will introduce you to the core concepts of Apache Airflow. To complete the project, you will need to create your own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
 
